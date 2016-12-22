@@ -23,9 +23,9 @@ def start(args):
             if disk_type == 'st1' and disk_size < 500:
                # Make sure 'st1' data disk is larger than 500GiB
                disk_size = 500
-            volume_id = ec2obj.create_volume(volume_name, size = 200, volume_type = disk_type)
+            volume_id = ec2obj.create_volume(volume_name, size = disk_size, volume_type = disk_type)
             print "volume %s created" % volume_name
-            print "volume size %s GiB" % "200"
+            print "volume size %s GiB" % disk_size
     
             device_name = '/dev/xvd%s' % chr(98+i)  # index starts from 'xvdb'
             print "device name %s" % device_name
