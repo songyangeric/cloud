@@ -1,0 +1,19 @@
+# The access key for your AWS account
+aws_access_key_id = AKIAI362OWJWYVKAQ5YA
+
+#The secret key for your AWS account
+aws_secret_access_key = 2I/PumJWIzD+4f43ZEDas5509w8suQJUrac4LLA6
+
+# The default region when making request
+region = us-west-1
+
+# The security group to use
+security_group = ddve-priv-sg
+
+# The instance type to use
+instance_type = m4.large
+
+# The default Network and Subnet to use
+subnet = cali-priv-sub-1a
+
+
