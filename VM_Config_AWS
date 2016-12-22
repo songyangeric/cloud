@@ -1,8 +1,8 @@
 # The access key for your AWS account
-aws_access_key_id = AKIAI362OWJWYVKAQ5YA
+aws_access_key_id = YOUR_ACCESS_KEY
 
 #The secret key for your AWS account
-aws_secret_access_key = 2I/PumJWIzD+4f43ZEDas5509w8suQJUrac4LLA6
+aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
 
 # The default region when making request
 region = us-west-1
